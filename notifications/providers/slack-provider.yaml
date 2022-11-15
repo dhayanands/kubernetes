@@ -10,4 +10,3 @@ spec:
     name: slack-webhook
   type: slack
   username: FluxBot
-
