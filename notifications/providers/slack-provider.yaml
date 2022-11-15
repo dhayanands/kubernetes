@@ -1,0 +1,13 @@
+---
+apiVersion: notification.toolkit.fluxcd.io/v1beta1
+kind: Provider
+metadata:
+  name: slack
+  namespace: default
+spec:
+  channel: sre-test
+  secretRef:
+    name: slack-webhook
+  type: slack
+  username: FluxBot
+
