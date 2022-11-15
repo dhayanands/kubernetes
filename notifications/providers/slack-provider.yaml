@@ -5,7 +5,7 @@ metadata:
   name: slack
   namespace: default
 spec:
-  channel: sre-test
+  channel: sre-testing
   secretRef:
     name: slack-webhook
   type: slack
